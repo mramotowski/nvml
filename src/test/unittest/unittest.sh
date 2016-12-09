@@ -200,28 +200,28 @@ fi
 # The default is to turn on library logging to level 3 and save it to local files.
 # Tests that don't want it on, should override these environment variables.
 #
-export VMEM_LOG_LEVEL=3
+export VMEM_LOG_LEVEL=2
 export VMEM_LOG_FILE=vmem$UNITTEST_NUM.log
-export PMEM_LOG_LEVEL=3
+export PMEM_LOG_LEVEL=2
 export PMEM_LOG_FILE=pmem$UNITTEST_NUM.log
-export PMEMBLK_LOG_LEVEL=3
+export PMEMBLK_LOG_LEVEL=2
 export PMEMBLK_LOG_FILE=pmemblk$UNITTEST_NUM.log
-export PMEMLOG_LOG_LEVEL=3
+export PMEMLOG_LOG_LEVEL=2
 export PMEMLOG_LOG_FILE=pmemlog$UNITTEST_NUM.log
-export PMEMOBJ_LOG_LEVEL=3
+export PMEMOBJ_LOG_LEVEL=2
 export PMEMOBJ_LOG_FILE=pmemobj$UNITTEST_NUM.log
-export PMEMPOOL_LOG_LEVEL=3
+export PMEMPOOL_LOG_LEVEL=2
 export PMEMPOOL_LOG_FILE=pmempool$UNITTEST_NUM.log
 
 export VMMALLOC_POOL_DIR="$DIR"
 export VMMALLOC_POOL_SIZE=$((16 * 1024 * 1024))
-export VMMALLOC_LOG_LEVEL=3
+export VMMALLOC_LOG_LEVEL=2
 export VMMALLOC_LOG_FILE=vmmalloc$UNITTEST_NUM.log
 
 export VALGRIND_LOG_FILE=${CHECK_TYPE}${UNITTEST_NUM}.log
 export VALIDATE_VALGRIND_LOG=1
 
-export RPMEM_LOG_LEVEL=3
+export RPMEM_LOG_LEVEL=2
 export RPMEM_LOG_FILE=rpmem$UNITTEST_NUM.log
 export RPMEMD_LOG_LEVEL=info
 export RPMEMD_LOG_FILE=rpmemd$UNITTEST_NUM.log
